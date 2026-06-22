@@ -20,4 +20,5 @@ schedule
 joblib
 tqdm
 pydantic
-python-multipartloguru 
+python-multipart
+loguru
