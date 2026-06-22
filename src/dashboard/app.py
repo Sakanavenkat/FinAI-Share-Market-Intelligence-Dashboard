@@ -20,6 +20,7 @@ from src.analysis.risk import RiskAnalyzer
 from src.analysis.recommendation import RecommendationEngine
 from src.chatbot.agent import FinancialChatbot
 from src.data.database import init_db, SessionLocal, PortfolioHolding
+init_db()
 from config.stocks_list import ALL_NSE_STOCKS, COMPANY_NAMES, get_company_name
 from config.settings import SECTORS
 
